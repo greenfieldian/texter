@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :people
   root 'users#index'
 
   resource :messages do
