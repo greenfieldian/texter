@@ -15,6 +15,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem "devise"
 gem 'twilio-ruby', '~> 5.67', '>= 5.67.2'
+gem 'sucker_punch', '~> 3.0', '>= 3.0.1'
+gem 'tailwindcss-rails', '~> 2.0', '>= 2.0.8'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem

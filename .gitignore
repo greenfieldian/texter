@@ -35,4 +35,7 @@
 /config/master.key
 
 # Ignore Credentials
-/config/credentials.yml.enc
+/config/secrets.yml.
+
+/app/assets/builds/*
+!/app/assets/builds/.keep
